@@ -1,10 +1,10 @@
-package com.example.demo.restaurant;
+package com.example.demo.entity.restaurant;
 
-import com.example.demo.adress.Adress;
-import com.example.demo.kitchen.Kitchen;
-import com.example.demo.paymentMethod.PaymentMethod;
-import com.example.demo.product.Product;
-import com.example.demo.user.User;
+import com.example.demo.entity.adress.Adress;
+import com.example.demo.entity.kitchen.Kitchen;
+import com.example.demo.entity.paymentMethod.PaymentMethod;
+import com.example.demo.entity.product.Product;
+import com.example.demo.entity.user.User;
 import lombok.Data;
 
 import javax.persistence.*;

@@ -1,11 +1,10 @@
-package com.example.demo.user;
+package com.example.demo.entity.user;
 
-import com.example.demo.group.Group;
+import com.example.demo.entity.group.Group;
 import lombok.Data;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
-import java.util.Date;
 
 @Data
 @Entity

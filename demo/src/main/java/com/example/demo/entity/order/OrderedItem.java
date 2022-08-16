@@ -1,6 +1,6 @@
-package com.example.demo.order;
+package com.example.demo.entity.order;
 
-import com.example.demo.product.Product;
+import com.example.demo.entity.product.Product;
 import lombok.Data;
 
 import java.math.BigDecimal;

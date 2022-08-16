@@ -1,6 +1,6 @@
-package com.example.demo.adress;
+package com.example.demo.entity.adress;
 
-import com.example.demo.city.City;
+import com.example.demo.entity.city.City;
 import lombok.Data;
 
 import javax.persistence.*;

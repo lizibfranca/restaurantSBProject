@@ -1,9 +1,7 @@
 package com.example.demo.service;
 
-import com.example.demo.city.City;
 import com.example.demo.exception.BadRequestException;
-import com.example.demo.group.Group;
-import com.example.demo.repository.CityRepository;
+import com.example.demo.entity.group.Group;
 import com.example.demo.repository.GroupRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

@@ -2,7 +2,7 @@ package com.example.demo.service;
 
 import com.example.demo.exception.BadRequestException;
 import com.example.demo.repository.RestaurantRepository;
-import com.example.demo.restaurant.Restaurant;
+import com.example.demo.entity.restaurant.Restaurant;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

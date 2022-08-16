@@ -1,9 +1,7 @@
 package com.example.demo.service;
 
-import com.example.demo.adress.Adress;
-import com.example.demo.city.City;
+import com.example.demo.entity.city.City;
 import com.example.demo.exception.BadRequestException;
-import com.example.demo.repository.AdressRepository;
 import com.example.demo.repository.CityRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

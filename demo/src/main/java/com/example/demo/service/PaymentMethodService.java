@@ -1,7 +1,7 @@
 package com.example.demo.service;
 
 import com.example.demo.exception.BadRequestException;
-import com.example.demo.paymentMethod.PaymentMethod;
+import com.example.demo.entity.paymentMethod.PaymentMethod;
 import com.example.demo.repository.PaymentMethodRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

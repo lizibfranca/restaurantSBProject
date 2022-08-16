@@ -1,9 +1,9 @@
-package com.example.demo.order;
+package com.example.demo.entity.order;
 
-import com.example.demo.adress.Adress;
-import com.example.demo.paymentMethod.PaymentMethod;
-import com.example.demo.restaurant.Restaurant;
-import com.example.demo.user.User;
+import com.example.demo.entity.adress.Adress;
+import com.example.demo.entity.paymentMethod.PaymentMethod;
+import com.example.demo.entity.restaurant.Restaurant;
+import com.example.demo.entity.user.User;
 import lombok.Data;
 
 import javax.persistence.*;

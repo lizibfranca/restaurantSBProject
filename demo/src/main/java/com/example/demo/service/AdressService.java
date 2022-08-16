@@ -1,6 +1,6 @@
 package com.example.demo.service;
 
-import com.example.demo.adress.Adress;
+import com.example.demo.entity.adress.Adress;
 import com.example.demo.exception.BadRequestException;
 import com.example.demo.repository.AdressRepository;
 import lombok.RequiredArgsConstructor;

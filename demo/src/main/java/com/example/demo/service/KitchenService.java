@@ -1,7 +1,7 @@
 package com.example.demo.service;
 
 import com.example.demo.exception.BadRequestException;
-import com.example.demo.kitchen.Kitchen;
+import com.example.demo.entity.kitchen.Kitchen;
 import com.example.demo.repository.KitchenRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

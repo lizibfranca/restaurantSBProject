@@ -1,21 +1,19 @@
-package com.example.demo.group;
+package com.example.demo.entity.permission;
 
-import com.example.demo.permission.Permission;
 import lombok.Data;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import java.util.List;
 
 @Data
 @Entity
-public class Group {
+public class Permission {
     @Id
     @Column(name = "id", nullable = false)
     private Long id;
 
     private String name;
-    private List<Permission> permissionList;
+    private String description;
 
 }

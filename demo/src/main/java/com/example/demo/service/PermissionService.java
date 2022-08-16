@@ -1,7 +1,7 @@
 package com.example.demo.service;
 
 import com.example.demo.exception.BadRequestException;
-import com.example.demo.permission.Permission;
+import com.example.demo.entity.permission.Permission;
 import com.example.demo.repository.PermissionRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

@@ -2,7 +2,7 @@ package com.example.demo.service;
 
 import com.example.demo.exception.BadRequestException;
 import com.example.demo.repository.StateRepository;
-import com.example.demo.state.State;
+import com.example.demo.entity.state.State;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

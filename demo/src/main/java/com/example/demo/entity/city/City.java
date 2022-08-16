@@ -1,19 +1,22 @@
-package com.example.demo.permission;
+package com.example.demo.entity.city;
 
+import com.example.demo.entity.state.State;
 import lombok.Data;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 
 @Data
 @Entity
-public class Permission {
+public class City {
     @Id
     @Column(name = "id", nullable = false)
     private Long id;
 
     private String name;
-    private String description;
+    @OneToOne
+    private State state;
 
 }
